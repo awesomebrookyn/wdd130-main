@@ -1,0 +1,120 @@
+/* Dubai-inspired WDD 130 Homepage Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f1e8;
+    color: #263238;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #102a43;
+}
+
+nav {
+    background-color: #102a43;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e5b45b;
+}
+
+main {
+    max-width: 840px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    color: #102a43;
+    text-align: center;
+}
+
+h2 {
+    color: #b88636;
+}
+
+main img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #d6ad60;
+    padding: 5px;
+    box-shadow: 0 4px 12px gray;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.tags span {
+    background-color: #102a43;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+aside {
+    width: 300px;
+    max-width: calc(100% - 30px);
+    margin: 20px auto;
+    border: 1px solid #d6ad60;
+    padding: 15px;
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+}
+
+aside h2 {
+    color: #e5b45b;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #d6ad60;
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin: 15px;
+    }
+}
